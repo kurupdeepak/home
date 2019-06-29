@@ -1,0 +1,12 @@
+Caused by: org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "TIMESTAMP WITH TIME ZONE '2019-06-28 00:21:32.919-04' (PRESCRIPTION: ""DATE_OF_PURCHASE"" BINARY(255))"; SQL statement:
+insert into prescription (prescription_id, active, date_of_purchase, prescribed_by, rx_name, rx_prescribed_unit, rx_unit_type, rx_usage_times, user_id) values (1, true, CURRENT_TIMESTAMP(9), 'Family Doctor','Januvia', 100, 'mg', '1', 1) -- (1, TRUE, CURRENT_TIMESTAMP(9), 'Family Doctor', 'Januvia', 100, 'mg', '1', 1) [22018-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:455) ~[h2-1.4.199.jar:1.4.199]
+	
+>> Added hibernate-java8 to support localdatetime
+
+This Exception
+
+org.springframework.http.converter.HttpMessageNotWritableException
+
+getting because, I hope so, your are sending response output as Serializable object. 
+This is problem occurring in spring. To over come this issue, send POJO object as response output.
