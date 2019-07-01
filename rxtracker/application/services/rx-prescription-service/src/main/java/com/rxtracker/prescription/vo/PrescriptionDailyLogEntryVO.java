@@ -2,10 +2,6 @@ package com.rxtracker.prescription.vo;
 
 import java.time.LocalDateTime;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
 public class PrescriptionDailyLogEntryVO {
 	private Long usageId;
 	

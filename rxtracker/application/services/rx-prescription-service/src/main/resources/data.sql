@@ -1,13 +1,9 @@
 truncate table prescription;
-truncate table gluco_monitor_entry;
 truncate table unit_type;
 truncate table usage_interval;
 
 insert into prescription (prescription_id, active, date_of_purchase, prescribed_by, rx_name, rx_prescribed_unit, rx_unit_type, rx_usage_interval, user_id) values (1, true, CURRENT_TIMESTAMP(), 'Family Doctor','Januvia', 100, 'mg', '1', 1);
 insert into prescription (prescription_id, active, date_of_purchase, prescribed_by, rx_name, rx_prescribed_unit, rx_unit_type, rx_usage_interval, user_id) values (2, true, CURRENT_TIMESTAMP(), 'Family Doctor','Metaformin', 1000, 'mg', '2',1);
-
-insert into gluco_monitor_entry (entry_id, level_entered, level_entry_time, notes, user_id) values (1, 4.5, current_timestamp(), 'Test Entry 1', 1);
-insert into gluco_monitor_entry (entry_id, level_entered, level_entry_time, notes, user_id) values (2, 5.5, current_timestamp(), 'Test Entry 2', 1);
 
 insert into unit_type values (1,'MG');
 insert into unit_type values (2,'ML');

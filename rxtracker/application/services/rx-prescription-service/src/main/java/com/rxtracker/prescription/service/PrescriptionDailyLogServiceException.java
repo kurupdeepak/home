@@ -2,6 +2,11 @@ package com.rxtracker.prescription.service;
 
 public class PrescriptionDailyLogServiceException extends RuntimeException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6483250285490284650L;
+
 	public PrescriptionDailyLogServiceException() {
 		super();
 		// TODO Auto-generated constructor stub

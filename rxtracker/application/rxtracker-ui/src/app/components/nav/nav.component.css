@@ -15,7 +15,10 @@
   color:#e6e8ed !important;
   background-color:#5E4485 !important;
 }
-
+.dropdown-menu{
+  padding:0;
+  border:0;
+}
 .main-section {
   margin: 0 auto;
   margin-top: 130px;

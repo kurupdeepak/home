@@ -1,12 +1,15 @@
 package com.rxtracker.userservice.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.github.dozermapper.core.Mapper;
 import com.rxtracker.userservice.dao.UserRepository;
-import com.rxtracker.userservice.entities.User;
+import com.rxtracker.userservice.data.User;
+import com.rxtracker.userservice.vo.UserVO;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -14,33 +17,25 @@ public class UserServiceImpl implements UserService {
 	@Autowired 
 	UserRepository userRepository;
 	
+	@Autowired
+	Mapper mapper;
+	
 	@Override
-	public Long addUser(User user) {
-		user = userRepository.save(user);
-		return user.getUserId();
+	public Long addUser(UserVO user) {
+		User data = userRepository.save(mapper.map(user, User.class));
+		return data.getUserId();
 	}
 
 	@Override
-	public Long updateUser(User user) {
+	public Long updateUser(UserVO user) {
 		User existingUser = getUser(user.getUserId());
 		if(existingUser == null)
 			throw new UserNotFoundException("Unable to update " + user.getUserId());
-		user = userRepository.save(copyOf(user));
-		return user.getUserId();
+		existingUser = userRepository.save(mapper.map(user, User.class));
+		return existingUser.getUserId();
 	}
 	
 	
-	private User copyOf(User user) {
-		User copy = new User();
-		copy.setEmail(user.getEmail());
-		copy.setFirst(user.getFirst());
-		copy.setLast(user.getLast());
-		copy.setPassword(user.getPassword());
-		copy.setUserName(user.getUserName());
-		copy.setUserId(user.getUserId());
-		return copy;
-	}
-
 	@Override
 	public Long deleteUser(Long userId) {
 		User existingUser = getUser(userId);
@@ -67,8 +62,12 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public List<User> getAllUsers() {
-		return userRepository.findAll();
+	public List<UserVO> getAllUsers() {
+		List<User> results = userRepository.findAll();
+		List<UserVO> destList = new ArrayList<>();
+		results.stream().forEach(result -> destList.add(mapper.map(results, UserVO.class)));
+		mapper.map(results,destList);
+		return destList;
 	}
 
 }

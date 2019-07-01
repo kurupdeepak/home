@@ -2,6 +2,11 @@ package com.rxtracker.userservice.service;
 
 public class UserServiceException extends RuntimeException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6945178173813730636L;
+
 	public UserServiceException() {
 		// TODO Auto-generated constructor stub
 	}

@@ -2,14 +2,15 @@ package com.rxtracker.userservice.service;
 
 import java.util.List;
 
-import com.rxtracker.userservice.entities.User;
+import com.rxtracker.userservice.data.User;
+import com.rxtracker.userservice.vo.UserVO;
 
 public interface UserService {
 	
-	Long addUser(User user);
-	Long updateUser(User user);
+	Long updateUser(UserVO user);
 	Long deleteUser(Long userId);
 	Long deactivateUser(Long userId);
 	User getUser(Long userId);
-	List<User> getAllUsers();
+	List<UserVO> getAllUsers();
+	Long addUser(UserVO user);
 }

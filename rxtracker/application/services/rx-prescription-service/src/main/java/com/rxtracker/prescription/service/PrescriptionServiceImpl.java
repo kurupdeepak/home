@@ -1,11 +1,12 @@
 package com.rxtracker.prescription.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import org.dozer.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.github.dozermapper.core.Mapper;
 import com.rxtracker.prescription.dao.PrescriptionRepository;
 import com.rxtracker.prescription.data.Prescription;
 import com.rxtracker.prescription.vo.PrescriptionVO;
@@ -17,8 +18,6 @@ public class PrescriptionServiceImpl implements PrescriptionService {
 	
 	@Autowired
 	Mapper dozerMapper ;
-	
-	
 	
 	@Override
 	public Long addPrescription(PrescriptionVO p) throws PrescriptionServiceException {
@@ -59,7 +58,11 @@ public class PrescriptionServiceImpl implements PrescriptionService {
 
 	@Override
 	public List<PrescriptionVO> getPrescriptions() {
-		return dozerMapper.map(repository.findAll(),List.class);
+		List<Prescription> results = repository.findAll();
+		List<PrescriptionVO> destList = new ArrayList<>();
+		results.stream().forEach(result -> destList.add(dozerMapper.map(repository.findAll(),PrescriptionVO.class)));
+		dozerMapper.map(results,destList);
+		return destList;
 	}
 
 }

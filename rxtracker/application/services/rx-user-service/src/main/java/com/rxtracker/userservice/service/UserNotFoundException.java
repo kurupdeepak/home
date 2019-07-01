@@ -2,6 +2,11 @@ package com.rxtracker.userservice.service;
 
 public class UserNotFoundException extends UserServiceException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7950760945276840248L;
+
 	public UserNotFoundException() {
 		// TODO Auto-generated constructor stub
 	}

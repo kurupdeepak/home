@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.rxtracker.prescription.data.PrescriptionDailyLogEntry;
 import com.rxtracker.prescription.service.PrescriptionDailyLogEntryService;
+import com.rxtracker.prescription.vo.PrescriptionDailyLogEntryVO;
 
 @RestController
 @RequestMapping("/api/users/{userId}/prescriptions")
@@ -24,7 +25,7 @@ public class PrescriptionDailyLogController {
 	PrescriptionDailyLogEntryService service;
 	
 	@PostMapping("/entries")
-	public Long addPrescription(@PathVariable("userId") Long userId,PrescriptionDailyLogEntry p) {
+	public Long addPrescription(@PathVariable("userId") Long userId,PrescriptionDailyLogEntryVO p) {
 		//TODO
 		return service.addUsage(p);
 	}
@@ -36,26 +37,26 @@ public class PrescriptionDailyLogController {
 	}
 	
 	@PutMapping("/entries/{id}")
-	public Long updatePrescription(@PathVariable("userId") Long userId,@PathVariable("id") Long id,@RequestBody PrescriptionDailyLogEntry p) {
+	public Long updatePrescription(@PathVariable("userId") Long userId,@PathVariable("id") Long id,@RequestBody PrescriptionDailyLogEntryVO p) {
 		//TODO
 		p.setPrescriptionId(id);
 		return service.updateUsage(p);
 	}
 	
 	@GetMapping("/entries/{id}")
-	public PrescriptionDailyLogEntry getPrescription(@PathVariable("userId") Long userId,@PathVariable("id") Long id) {
+	public PrescriptionDailyLogEntryVO getPrescription(@PathVariable("userId") Long userId,@PathVariable("id") Long id) {
 		//TODO
 		return service.getPrescriptionUsage(id);
 	}
 	
 	@GetMapping("/entries")
-	public List<PrescriptionDailyLogEntry> allPrescriptions(@PathVariable("userId") Long userId) {
+	public List<PrescriptionDailyLogEntryVO> allPrescriptions(@PathVariable("userId") Long userId) {
 		//TODO
 		return service.getAll(LocalDateTime.now().toLocalDate());
 	}
 	
 	@GetMapping("/entries/{from}/{to}")
-	public List<PrescriptionDailyLogEntry> allPrescriptions(@PathVariable("userId") Long userId,@PathVariable("from") LocalDate from,@PathVariable("to") LocalDate to) {
+	public List<PrescriptionDailyLogEntryVO> allPrescriptions(@PathVariable("userId") Long userId,@PathVariable("from") LocalDate from,@PathVariable("to") LocalDate to) {
 		//TODO
 		return service.getAllBetweenDates(from,to);
 	}

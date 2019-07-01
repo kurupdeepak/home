@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rxtracker.userservice.entities.User;
+import com.rxtracker.userservice.data.User;
 import com.rxtracker.userservice.service.UserService;
+import com.rxtracker.userservice.vo.UserVO;
 
 @RestController
 @RequestMapping("/api")
@@ -23,12 +24,12 @@ public class UserController {
 	UserService userService;
 	
 	@PostMapping("/users")
-	public Long addUser(@RequestBody User user) {
+	public Long addUser(@RequestBody UserVO user) {
 		return userService.addUser(user);
 	}
 	
 	@PutMapping("/users/{id}")	
-	public Long updateUser(@PathVariable("id") Long userId,@RequestBody User user) {
+	public Long updateUser(@PathVariable("id") Long userId,@RequestBody UserVO user) {
 		return userService.updateUser(user);
 	}
 	
@@ -42,9 +43,9 @@ public class UserController {
 	public User getUser(@PathVariable Long id) {
 		return userService.getUser(id);
 	}
-	
+			
 	@GetMapping("/users")
-	public List<User> allUsers() {
+	public List<UserVO> allUsers() {
 		return userService.getAllUsers();
 	}
 }

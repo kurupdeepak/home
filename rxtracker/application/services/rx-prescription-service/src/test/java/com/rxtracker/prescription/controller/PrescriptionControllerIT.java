@@ -22,7 +22,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.rxtracker.common.TestConstants;
-import com.rxtracker.glucomonitor.data.GlucoMonitorEntryVO;
 import com.rxtracker.prescription.dao.PrescriptionDailyLogRepository;
 import com.rxtracker.prescription.dao.PrescriptionRepository;
 import com.rxtracker.prescription.data.Prescription;
@@ -58,21 +57,11 @@ public class PrescriptionControllerIT {
 	@Mock
 	PrescriptionDailyLogEntry rxEntry;
 	
-	@Mock
-	GlucoMonitorEntryVO monitorEntry;
-	
 	@Before
 	public void setup() {
 	}
 	
 	
-	private void createDummyEntries() {
-		rxDummyList = rxRepository.findAll();
-		rxDummyEntryList = rxEntryRepository.findAll();
-//		monitorDummyEntryList = monitorRepository.findAll();
-	}
-
-
 	@Test
 	public void testRegisterPrescription() {
 		ResponseEntity<Long> response = template.postForEntity(TestConstants.PRESCRIPTION_URL, 

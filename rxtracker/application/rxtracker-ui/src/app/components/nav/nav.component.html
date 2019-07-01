@@ -8,12 +8,37 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="prescriptions" class="nav-link">Prescriptions</a></li>
-      <li class="nav-item"><a href="rxusage" class="nav-link">RxUsage</a></li>
-      <li class="nav-item"><a href="fooddiary" class="nav-link">Food Diary</a></li>
-      <li class="nav-item"><a href="reports" class="nav-link">Reports</a></li>
-      <li class="nav-item"><a href="fitness" class="nav-link">GymTracker</a></li>
-      <li class="nav-item"><a href="activity" class="nav-link">Activity</a></li>
+      <li class="nav-item">
+          <div class="dropdown show">
+              <a href="#" class="btn nav-item dropdown-toggle" role="button" id="rxMedsLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Meds</a>
+              <div class="dropdown-menu" aria-labelledby="rxMedsLink">
+                <a class="dropdown-item" href="prescriptions">Register</a>
+                <a class="dropdown-item" href="rxusage">Daily Entry</a>
+                <a class="dropdown-item" href="#">Monitor Entry</a>
+              </div>
+        </div> 
+      </li>   
+      <li class="nav-item">
+          <div class="dropdown show">
+              <a href="#" class="btn nav-item dropdown-toggle" role="button" id="rxActivityLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Activity</a>
+              <div class="dropdown-menu" aria-labelledby="rxActivityLink">
+                <a class="dropdown-item" href="fooddiary">Food</a>
+                <a class="dropdown-item" href="fitness">Gym</a>
+                <a class="dropdown-item" href="activity">Routine</a>
+              </div>
+        </div> 
+      </li>
+      <li class="nav-item">
+          <div class="dropdown show">
+              <a href="#" class="btn nav-item dropdown-toggle" role="button" id="rxReportLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reports</a>
+              <div class="dropdown-menu" aria-labelledby="rxReportLink">
+                <a class="dropdown-item" href="reports">Meal Report</a>
+                <a class="dropdown-item" href="reports">Activity Report</a>
+                <a class="dropdown-item" href="reports">Gym Report</a>
+                <a class="dropdown-item" href="reports">Med Usage Report</a>
+              </div>
+        </div> 
+      </li>         
       <li class="nav-item"><a href="login" class="nav-link">Login</a></li>
       <li class="nav-item"><a href="register" class="nav-link">Register</a></li>
     </ul>

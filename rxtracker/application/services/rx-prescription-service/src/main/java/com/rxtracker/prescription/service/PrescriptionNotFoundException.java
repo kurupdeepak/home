@@ -2,6 +2,11 @@ package com.rxtracker.prescription.service;
 
 public class PrescriptionNotFoundException extends PrescriptionServiceException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5435429134721863048L;
+
 	public PrescriptionNotFoundException() {
 		super();
 		// TODO Auto-generated constructor stub
