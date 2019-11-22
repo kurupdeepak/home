@@ -23,6 +23,10 @@ public class Customer {
         this.name = name;
     }
 
+    public Customer() {
+
+    }
+
     public int getCustomerId() {
         return customerId;
     }

@@ -53,6 +53,6 @@ public class CustomerReviewServiceImpl implements CustomerReviewService {
 
     @Override
     public List<CustomerReview> getProductReviewInRange(int product, int min, int max) {
-        return customerReviewDAO.findAllByProductRatingBetween(product,min,max);
+        return customerReviewDAO.findAllByProductIdAndRatingBetween(product,min,max);
     }
 }

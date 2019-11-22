@@ -1,7 +1,7 @@
-package com.customerreview.module.common.service;
+package com.customerreview.module.curseword.service;
 
-import com.customerreview.module.common.dao.CurseWordDAO;
-import com.customerreview.module.common.model.CurseWord;
+import com.customerreview.module.curseword.dao.CurseWordDAO;
+import com.customerreview.module.curseword.model.CurseWord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

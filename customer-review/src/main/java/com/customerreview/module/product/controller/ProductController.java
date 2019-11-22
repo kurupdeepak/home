@@ -1,40 +1,40 @@
-package com.customerreview.module.customer.controller;
+package com.customerreview.module.product.controller;
 
-import com.customerreview.module.customer.model.Customer;
-import com.customerreview.module.customer.service.CustomerService;
+import com.customerreview.module.product.model.Product;
+import com.customerreview.module.product.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/customer")
-public class CustomerController {
+@RequestMapping("/product")
+public class ProductController {
     @Autowired
-    CustomerService customerService;
+    ProductService productService;
 
-    @PutMapping()
-    public int add(@RequestBody String customer){
-        return customerService.addCustomer(customer);
+    @PostMapping
+    public int add(@RequestBody String product){
+        return productService.addProduct(product);
     }
 
-    @PostMapping("/{id}")
-    public void update(@RequestBody String customer,@PathVariable int id){
-        customerService.updateCustomer(id,customer);
+    @PutMapping("/{id}")
+    public void update(@RequestBody String product,@PathVariable int id){
+        productService.updateProduct(id,product);
     }
 
     @DeleteMapping("/{id}")
     public void delete(@PathVariable int id){
-        customerService.deleteCustomer(id);
+        productService.deleteProduct(id);
     }
 
     @GetMapping("/{id}")
-    public Customer getCustomer(@PathVariable int id){
-        return customerService.getCustomer(id);
+    public Product getProduct(@PathVariable int id){
+        return productService.getProduct(id);
     }
 
     @GetMapping
-    public List<Customer> getCustomers(){
-        return customerService.getAllCustomers();
+    public List<Product> getProducts(){
+        return productService.getAllProducts();
     }
 }

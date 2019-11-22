@@ -1,4 +1,4 @@
-package com.customerreview.module.common.model;
+package com.customerreview.module.curseword.model;
 
 import javax.persistence.*;
 

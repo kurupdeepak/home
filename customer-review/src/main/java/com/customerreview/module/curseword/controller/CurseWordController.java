@@ -1,7 +1,7 @@
-package com.customerreview.module.common.controller;
+package com.customerreview.module.curseword.controller;
 
-import com.customerreview.module.common.model.CurseWord;
-import com.customerreview.module.common.service.CurseWordRegistrationService;
+import com.customerreview.module.curseword.model.CurseWord;
+import com.customerreview.module.curseword.service.CurseWordRegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

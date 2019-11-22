@@ -1,6 +1,6 @@
 package com.customerreview.module.product.service;
 
-import com.customerreview.module.common.service.NotFoundException;
+import com.customerreview.module.curseword.service.NotFoundException;
 import com.customerreview.module.product.dao.ProductDAO;
 import com.customerreview.module.product.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,5 +40,14 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public List<Product> getAllProducts() {
         return (List<Product>) productDAO.findAll();
+    }
+
+    @Override
+    public Product getProduct(int id) {
+        Optional<Product> p = productDAO.findById(id);
+        if(!p.isPresent()){
+            throw new NotFoundException("Product not found : "+ id);
+        }
+        return p.get();
     }
 }

@@ -1,6 +1,6 @@
 package com.customerreview.module.customer.service;
 
-import com.customerreview.module.common.service.NotFoundException;
+import com.customerreview.module.curseword.service.NotFoundException;
 import com.customerreview.module.customer.dao.CustomerDAO;
 import com.customerreview.module.customer.model.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,5 +40,13 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public List<Customer> getAllCustomers() {
         return (List<Customer>) customerDAO.findAll();
+    }
+
+    @Override
+    public Customer getCustomer(int id) {
+        Optional<Customer> c = customerDAO.findById(id);
+        if(!c.isPresent())
+            throw new NotFoundException("Customer not found " + id);
+        return c.get();
     }
 }

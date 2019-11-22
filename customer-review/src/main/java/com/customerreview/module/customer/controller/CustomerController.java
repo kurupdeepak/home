@@ -1,4 +1,4 @@
-package com.customerreview.module.controller;
+package com.customerreview.module.customer.controller;
 
 import com.customerreview.module.customer.model.Customer;
 import com.customerreview.module.customer.service.CustomerService;
@@ -13,18 +13,18 @@ public class CustomerController {
     @Autowired
     CustomerService customerService;
 
-    @PutMapping()
+    @PostMapping
     public int add(@RequestBody String customer){
         return customerService.addCustomer(customer);
     }
 
-    @PostMapping("/{id}")
-    public int update(@RequestBody String customer,@PathVariable int id){
+    @PutMapping("/{id}")
+    public void update(@RequestBody String customer,@PathVariable int id){
         customerService.updateCustomer(id,customer);
     }
 
     @DeleteMapping("/{id}")
-    public int delete(@PathVariable int id){
+    public void delete(@PathVariable int id){
         customerService.deleteCustomer(id);
     }
 

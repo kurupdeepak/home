@@ -1,4 +1,4 @@
-package com.jukebox.fp;
+package com.ikm.test;
 
 public class TrueTest {
     public static void main(String[] args) {

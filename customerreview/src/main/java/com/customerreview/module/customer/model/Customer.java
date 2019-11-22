@@ -18,6 +18,11 @@ public class Customer {
         this.name = name;
     }
 
+    public Customer(int id,String name) {
+        this.customerId = id;
+        this.name = name;
+    }
+
     public int getCustomerId() {
         return customerId;
     }

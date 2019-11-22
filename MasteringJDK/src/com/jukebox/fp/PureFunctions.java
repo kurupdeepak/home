@@ -12,6 +12,8 @@ public class PureFunctions {
 
         System.out.println(pureFunction.apply(10));
     }
+
+
 }
 
 interface Function<T,R>{

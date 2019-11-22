@@ -1,7 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="096ec896-19cc-41ff-b61b-90438b7a7cca" name="Default Changelist" comment="" />
+    <list default="true" id="accb7c8c-b406-49c2-abea-f72cb9c35639" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/MasteringJDK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/src/com/jukebox/fp/Closures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/src/com/jukebox/fp/HighOrderFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/src/com/jukebox/fp/LazyEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/src/com/jukebox/fp/PureFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringJDK/src/com/jukebox/linkedlist/MaxSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-review-base/customer-review-base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/integration-test/java/com/customerreview/module/review/controller/CustomerReviewControllerIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/integration-test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/CustomerReviewApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/CustomerReviewConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/ControllerError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/CustomerReviewApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/curseword/controller/CurseWordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/curseword/controller/CurseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/curseword/dao/CurseWordDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/curseword/model/CurseWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/curseword/service/CurseWordRegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/curseword/service/CurseWordRegistrationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/curseword/service/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/customer/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/customer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/product/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/product/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/controller/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/controller/CustomerReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/dao/CustomerReviewDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/model/CustomerReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/rules/CustomerCommentsCheckForCurseWordsRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/rules/CustomerRatingZeroCheckRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/rules/CustomerReviewRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/service/CustomerReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/service/CustomerReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/customerreview/module/review/service/InvalidReviewException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/customerreview/CustomerReviewApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/customerreview/module/review/dao/CustomerReviewDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/customerreview/module/review/service/CustomerReviewServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/artifacts/customerreview_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/artifacts/customerreview_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__Arquillian_JUnit_1_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/customerreview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/CustomerReviewApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/common/dao/CurseWordDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/common/model/CurseWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/common/service/CurseWordRegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/common/service/CurseWordRegistrationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/common/service/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/customer/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/customer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/product/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/product/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/dao/CustomerReviewDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/model/CustomerReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/rules/CustomerCommentCheckForCurseWordsRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/rules/CustomerRatingZeroCheckRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/rules/CustomerReviewRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/service/CustomerReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/service/CustomerReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/java/com/customerreview/module/review/service/InvalidReviewException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/main/resource/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/test/com/customerreview/module/CustomerReviewAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/test/com/customerreview/module/review/service/CustomerReviewServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/src/test/resource/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/CustomerReviewApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/common/dao/CurseWordDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/common/model/CurseWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/common/service/CurseWordRegistrationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/common/service/CurseWordRegistrationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/common/service/NotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/customer/dao/CustomerDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/customer/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/customer/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/customer/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/product/dao/ProductDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/product/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/product/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/product/service/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/dao/CustomerReviewDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/model/CustomerReview.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/rules/CustomerCommentCheckForCurseWordsRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/rules/CustomerRatingZeroCheckRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/rules/CustomerReviewRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/service/CustomerReviewService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/service/CustomerReviewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/classes/com/customerreview/module/review/service/InvalidReviewException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/test-classes/com/customerreview/module/CustomerReviewAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/test-classes/com/customerreview/module/review/service/CustomerReviewServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customerreview/target/test-classes/resource/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rxtracker/.idea/rxtracker.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,34 +221,70 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\git-repos\home\customer-review\.idea" />
-      </set>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1RJnhcVs10Dd0YikI9afFU0EJg2" />
+  <component name="ProjectId" id="1RO3CW88v4PgTJDaAZqYddE0brM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/integration-test/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.customerreview.module.review.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git-repos\home\customer-review\src" />
+      <recent name="C:\git-repos\home\customer-review\src\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.customerreview" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.customerreview.module.review.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git-repos\home\customer-review\src\integration-test\java" />
+      <recent name="C:\git-repos\home\customer-review\src\integration-test" />
+      <recent name="C:\git-repos\home\customer-review\src\test" />
+      <recent name="C:\git-repos\home\customer-review\src\integration-test\java\com\customerreview" />
+      <recent name="C:\git-repos\home\customer-review\src\main\java\com\customerreview\module\review" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,18 +298,117 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.CustomerReviewControllerIntTest.testCustomerReview4ProductInRange">
+    <configuration name="CustomerReviewControllerIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.customerreview.module.review.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.customerreview.module.review.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.customerreview.module.review.controller.CustomerReviewControllerIntTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerReviewControllerIntTest.testCustomerReview4ProductInRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.customerreview.module.review.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.customerreview.module.review.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.customerreview.module.review.controller.CustomerReviewControllerIntTest" />
+      <option name="METHOD_NAME" value="testCustomerReview4ProductInRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerReviewControllerIntTest.testRatingNonZeroOrNonNegativeInCustomerReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.customerreview.module.review.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.customerreview.module.review.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.customerreview.module.review.controller.CustomerReviewControllerIntTest" />
+      <option name="METHOD_NAME" value="testRatingNonZeroOrNonNegativeInCustomerReview" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerReviewControllerIntTest.testSuccessfulCustomerReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.customerreview.module.review.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.customerreview.module.review.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.customerreview.module.review.controller.CustomerReviewControllerIntTest" />
+      <option name="METHOD_NAME" value="testSuccessfulCustomerReview" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerReviewDAOTest.testGetReviewsForProductInRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.customerreview.module.review.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.customerreview.module.review.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.customerreview.module.review.dao.CustomerReviewDAOTest" />
+      <option name="METHOD_NAME" value="testGetReviewsForProductInRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComCustomerreviewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="customer-review" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.customerreview.CustomerReviewApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerReviewControllerIntTest.testCustomerReview4ProductInRange" />
+        <item itemvalue="JUnit.CustomerReviewControllerIntTest" />
+        <item itemvalue="JUnit.CustomerReviewControllerIntTest.testRatingNonZeroOrNonNegativeInCustomerReview" />
+        <item itemvalue="JUnit.CustomerReviewControllerIntTest.testSuccessfulCustomerReview" />
+        <item itemvalue="JUnit.CustomerReviewDAOTest.testGetReviewsForProductInRange" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="096ec896-19cc-41ff-b61b-90438b7a7cca" name="Default Changelist" comment="" />
-      <created>1569394186188</created>
+      <changelist id="accb7c8c-b406-49c2-abea-f72cb9c35639" name="Default Changelist" comment="" />
+      <created>1569524187771</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569394186188</updated>
-      <workItem from="1569394189791" duration="215000" />
-      <workItem from="1569428200590" duration="560000" />
+      <updated>1569524187771</updated>
+      <workItem from="1569524193518" duration="1012000" />
+      <workItem from="1569525326545" duration="23425000" />
+      <workItem from="1569816955883" duration="11635000" />
+      <workItem from="1572026026603" duration="790000" />
     </task>
     <servers />
   </component>
@@ -83,7 +428,55 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/customerreview/module/review/service/CustomerReviewServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/customerreview/module/review/service/CustomerReviewServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/customerreview/module/review/service/CustomerReviewServiceImplTest.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/customerreview/module/review/dao/CustomerReviewDAOTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/customerreview/module/review/dao/CustomerReviewDAOTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/customerreview/module/review/controller/CustomerReviewController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/integration-test/java/com/customerreview/module/review/controller/CustomerReviewControllerIntTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/integration-test/java/com/customerreview/module/review/controller/CustomerReviewControllerIntTest.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/customerreview/module/review/rules/CustomerRatingZeroCheckRule.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,11 +1,13 @@
 package com.customerreview.module.review.service;
 
 import com.customerreview.module.review.model.CustomerReview;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 public interface CustomerReviewService {
-    int addReview(CustomerReview customerReview) throws InvalidReviewException;
+    int addReview(CustomerReview review) throws InvalidReviewException;
+
     List<CustomerReview> getProductReviewInRange(int min, int max);
 
     List<CustomerReview> getProductReviewInRange(int product, int min, int max);

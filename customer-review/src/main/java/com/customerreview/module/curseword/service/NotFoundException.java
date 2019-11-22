@@ -1,4 +1,4 @@
-package com.customerreview.module.common.service;
+package com.customerreview.module.curseword.service;
 
 public class NotFoundException extends RuntimeException {
     public NotFoundException() {

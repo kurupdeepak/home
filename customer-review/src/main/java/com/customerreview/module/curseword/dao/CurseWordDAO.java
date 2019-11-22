@@ -1,6 +1,6 @@
-package com.customerreview.module.common.dao;
+package com.customerreview.module.curseword.dao;
 
-import com.customerreview.module.common.model.CurseWord;
+import com.customerreview.module.curseword.model.CurseWord;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 @Repository

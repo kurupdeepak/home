@@ -1,6 +1,6 @@
-package com.customerreview.module.common.service;
+package com.customerreview.module.curseword.service;
 
-import com.customerreview.module.common.model.CurseWord;
+import com.customerreview.module.curseword.model.CurseWord;
 
 import java.util.List;
 

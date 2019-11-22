@@ -1,6 +1,6 @@
-package com.customerreview.module.common.controller;
+package com.customerreview.module.curseword.controller;
 
-import com.customerreview.module.common.model.CurseWord;
+import com.customerreview.module.curseword.model.CurseWord;
 
 import java.util.List;
 

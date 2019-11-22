@@ -64,4 +64,15 @@ public class CustomerReview {
     public Customer getCustomerId() {
         return customerId;
     }
+
+    @Override
+    public String toString() {
+        return "CustomerReview{" +
+                "reviewId=" + reviewId +
+                ", productId=" + productId +
+                ", customerId=" + customerId +
+                ", comments='" + comments + '\'' +
+                ", rating=" + rating +
+                '}';
+    }
 }
