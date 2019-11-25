@@ -32,8 +32,8 @@ public class ForecastJobScheduler {
     @Autowired
     private JobRepository jobRepository;
 
-
-    @Scheduled(fixedDelay = 5 * 60 * 60 * 1000)
+    // 5 minutes
+    @Scheduled(fixedDelay =   5 * 60 * 1000)
     public void run(){
         long s = System.currentTimeMillis();
         log.info("Going to start the job " + LocalDateTime.now());
@@ -47,13 +47,11 @@ public class ForecastJobScheduler {
         Forecast forecast = new Forecast();
         log.info("Fetch information for " + zs);
         try {
-            Document doc = Jsoup.connect(CainerFileNames.valueOf("BASE_URL").getUri() + CainerFileNames.valueOf(zs.name()).getUri()).get();
+            Document doc = Jsoup.connect(baseURL + CainerFileNames.valueOf(zs.name()).getUri()).get();
             forecast.setZodiacSign(zs);
-            if(zs.name().equals("GEMINI"))
-                throw new RuntimeException("GEMINI - throw ");
             forecast.setDateRecorded(LocalDate.now());
             forecast.setForecastDetails(doc.getElementsByTag("table").get(CONTENT_INDEX).text());
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
             forecast.setForecastDetails("Job failed for " + zs.name() + " " + e.getMessage());
             log.error("Fetch information failed for  " + zs + " , error " + forecast.getForecastDetails());
