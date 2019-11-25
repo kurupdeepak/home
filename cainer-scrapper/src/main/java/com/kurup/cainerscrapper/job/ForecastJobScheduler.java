@@ -49,6 +49,8 @@ public class ForecastJobScheduler {
         try {
             Document doc = Jsoup.connect(CainerFileNames.valueOf("BASE_URL").getUri() + CainerFileNames.valueOf(zs.name()).getUri()).get();
             forecast.setZodiacSign(zs);
+            if(zs.name().equals("GEMINI"))
+                throw new RuntimeException("GEMINI - throw ");
             forecast.setDateRecorded(LocalDate.now());
             forecast.setForecastDetails(doc.getElementsByTag("table").get(CONTENT_INDEX).text());
         } catch (IOException e) {
