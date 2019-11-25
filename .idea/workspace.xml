@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd49ac1c-3727-4731-b2d3-2aa1676919b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/.idea/externalDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/MasteringJDK.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/META-INF/MasteringJDK.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/hackerrank/CountingValley.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/ExceptionDemo$1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/ExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/Indices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/Inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/SuppCons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/TestIndi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test/TrueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/A1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/Test9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/ikm/test2/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/Problems" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/TestSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/Closures$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/Closures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/HighOrderFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/LazyEvaluation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/LazyEvaluation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/MapVsFlatMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/PureFunctions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/PureFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/StreamsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/fp/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/linkedlist/MaxSumSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/solutions/ConsumerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/solutions/ConsumerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/solutions/ListSolutions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/out/production/MasteringJDK/com/jukebox/threads/FutureVsCompletableFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/hackerrank/CountingValley.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test/ExceptionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test/Inheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test/SuppCons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test/TestIndi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test/TrueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/ikm/test2/Test9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/Problems" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/TestSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/fp/Closures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/fp/HighOrderFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/fp/LazyEvaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/fp/MapVsFlatMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/fp/PureFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/fp/StreamsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/linkedlist/MaxSumSubArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/solutions/ConsumerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/solutions/ListSolutions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasteringJDK/src/com/jukebox/threads/FutureVsCompletableFuture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/.idea/libraries/Spring_Data_JPA_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/customer-review-base.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-data-jpa-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/out/production/customer-review/META-INF/customer-review.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/common/dao/CurseWordDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/common/model/CurseWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/common/service/CurseWordRegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/common/service/CurseWordRegistrationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customer/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customer/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customer/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customer/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/dao/CustomerReviewDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/model/CustomerReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/rules/CustomerCommentCheckForCurseWordsRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/rules/CustomerRatingZeroCheckRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/rules/CustomerReviewRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/service/CustomerReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/service/CustomerReviewServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/customerreview/service/InvalidReviewException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/product/dao/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/product/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/product/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review-base/src/com/product/service/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/integration-test/java/com/customerreview/module/review/controller/CustomerReviewControllerIntTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/integration-test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/CustomerReviewApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/CustomerReviewConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/ControllerError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/CustomerReviewApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/curseword/controller/CurseWordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/curseword/controller/CurseWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/curseword/dao/CurseWordDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/curseword/model/CurseWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/curseword/service/CurseWordRegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/curseword/service/CurseWordRegistrationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/curseword/service/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/customer/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/customer/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/customer/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/customer/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/customer/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/product/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/product/dao/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/product/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/product/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/product/service/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/controller/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/controller/CustomerReviewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/dao/CustomerReviewDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/model/CustomerReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/rules/CustomerCommentsCheckForCurseWordsRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/rules/CustomerRatingZeroCheckRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/rules/CustomerReviewRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/service/CustomerReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/service/CustomerReviewServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/java/com/customerreview/module/review/service/InvalidReviewException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/test/java/com/customerreview/CustomerReviewApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/test/java/com/customerreview/module/review/dao/CustomerReviewDAOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/test/java/com/customerreview/module/review/service/CustomerReviewServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/artifacts/customerreview_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/artifacts/customerreview_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__Arquillian_JUnit_1_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/customerreview.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/CustomerReviewApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/common/dao/CurseWordDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/common/model/CurseWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/common/service/CurseWordRegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/common/service/CurseWordRegistrationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/common/service/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/customer/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/customer/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/customer/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/customer/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/product/dao/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/product/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/product/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/product/service/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/dao/CustomerReviewDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/model/CustomerReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/rules/CustomerCommentCheckForCurseWordsRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/rules/CustomerRatingZeroCheckRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/rules/CustomerReviewRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/service/CustomerReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/service/CustomerReviewServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/java/com/customerreview/module/review/service/InvalidReviewException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/main/resource/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/test/com/customerreview/module/CustomerReviewAppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/test/com/customerreview/module/review/service/CustomerReviewServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/src/test/resource/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/CustomerReviewApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/common/dao/CurseWordDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/common/model/CurseWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/common/service/CurseWordRegistrationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/common/service/CurseWordRegistrationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/common/service/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/customer/dao/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/customer/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/customer/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/customer/service/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/product/dao/ProductDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/product/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/product/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/product/service/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/dao/CustomerReviewDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/model/CustomerReview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/rules/CustomerCommentCheckForCurseWordsRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/rules/CustomerRatingZeroCheckRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/rules/CustomerReviewRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/service/CustomerReviewService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/service/CustomerReviewServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/classes/com/customerreview/module/review/service/InvalidReviewException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/test-classes/META-INF/customerreview.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/test-classes/com/customerreview/module/CustomerReviewAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/test-classes/com/customerreview/module/review/service/CustomerReviewServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerreview/target/test-classes/resource/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/ncr-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/out/production/ncr-project/com/ncr/MissingElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/out/production/ncr-project/com/ncr/SumKArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/out/production/ncr-project/com/ncr/Test123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/src/com/ncr/MissingElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/src/com/ncr/SumKArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncr-project/src/com/ncr/Test123.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/.idea/rxtracker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/activity/activity.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/activity/activity.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/activity/activity.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/activity/activity.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fitness/fitness.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fitness/fitness.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fitness/fitness.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fitness/fitness.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fooddiary/fooddiary.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fooddiary/fooddiary.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fooddiary/fooddiary.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/fooddiary/fooddiary.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/nav/nav.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/nav/nav.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/nav/nav.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/nav/nav.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/prescriptions/prescriptions.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/prescriptions/prescriptions.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/prescriptions/prescriptions.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/prescriptions/prescriptions.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/register/register.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/register/register.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/reports/reports.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/reports/reports.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/reports/reports.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/reports/reports.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/rxusage/rxusage.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/rxusage/rxusage.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/rxusage/rxusage.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/app/components/rxusage/rxusage.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/rxtracker-ui/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/src/main/java/com/rxtracker/gateway/RxtrackerApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-api-gateway/src/test/java/com/rxtracker/gateway/RxtrackerApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/src/main/java/com/rxtracker/config/RxtrackerConfigApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-config/src/test/java/com/rxtracker/config/RxtrackerConfigApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/common/RxApiError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/common/RxApiErrorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/common/RxApiErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/GlucomonitorServiceApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/controller/GlucoMonitorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/dao/GlucoMonitorEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/dao/GlucoMonitorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/data/GlucoMonitorEntryVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/service/GlucoMonitorEntryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/service/GlucoMonitorEntryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/java/com/rxtracker/glucomonitor/service/GlucoMonitorServiceFailureException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/main/resources/dozerJdk8Converters.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/test/java/com/rxtracker/common/AbstractObjectTestFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/test/java/com/rxtracker/common/GlucoMonitorObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/test/java/com/rxtracker/common/TestConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/test/java/com/rxtracker/glucomonitor/GlucomonitorServiceApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/test/java/com/rxtracker/glucomonitor/controller/GlucoMonitorControllerIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-glucomonitor-service-api/src/test/java/com/rxtracker/testpkg/TestDozerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/errors-notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/PrescriptionServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/common/RxApiError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/common/RxApiErrorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/common/RxApiErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/controller/PrescriptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/controller/PrescriptionDailyLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/dao/PrescriptionDailyLogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/dao/PrescriptionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/dao/PrescriptionUnitTypesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/data/Prescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/data/PrescriptionDailyLogEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/data/UnitType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/data/UsageInterval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/service/PrescriptionDailyLogEntryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/service/PrescriptionDailyLogServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/service/PrescriptionDailyLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/service/PrescriptionNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/service/PrescriptionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/service/PrescriptionServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/service/PrescriptionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/vo/PrescriptionDailyLogEntryVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/vo/PrescriptionVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/vo/UnitTypeVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/java/com/rxtracker/prescription/vo/UsageIntervalVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/java/com/rxtracker/PrescriptionServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/java/com/rxtracker/common/AbstractObjectTestFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/java/com/rxtracker/common/PrescriptionDailyEntryObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/java/com/rxtracker/common/PrescriptionObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/java/com/rxtracker/common/TestConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/java/com/rxtracker/prescription/controller/PrescriptionControllerIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/java/com/rxtracker/prescription/controller/PrescriptionDailyLogControllerIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-prescription-service/src/test/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/src/main/java/com/rxtracker/servicediscovery/ServiceDiscoveryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-service-discovery-engine/src/test/java/com/rxtracker/servicediscovery/ServiceDiscoveryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/UserServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/controller/UserServiceApiError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/controller/UserServiceApiErrorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/controller/UserServiceExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/data/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/service/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/service/UserServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/java/com/rxtracker/userservice/vo/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/main/resources/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxtracker/application/services/rx-user-service/src/test/java/com/rxtracker/userservice/UserServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/integration-test/java/com/springboot/demo/web/UserControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/main/java/com/springboot/demo/SpringbootDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/main/java/com/springboot/demo/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/main/java/com/springboot/demo/data/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/main/java/com/springboot/demo/web/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/main/java/com/springboot/demo/web/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/test/java/com/springboot/demo/SpringbootDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo/src/test/java/com/springboot/demo/web/TestUserController.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Tz8tetu3vaDsRFm1GqKpSwckFV" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cainer-scrapper" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="home" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="home" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd49ac1c-3727-4731-b2d3-2aa1676919b0" name="Default Changelist" comment="" />
+      <created>1574451779485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574451779485</updated>
+      <workItem from="1574451780882" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
