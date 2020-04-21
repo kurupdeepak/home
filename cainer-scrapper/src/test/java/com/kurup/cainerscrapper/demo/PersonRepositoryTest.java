@@ -44,7 +44,6 @@ public class PersonRepositoryTest {
 
 
     @Test
-//    @Ignore
     public void findAllPersonTest(){
         List<Person> list  =personRepository.findAll();
         list.stream().forEach(System.out::println);
