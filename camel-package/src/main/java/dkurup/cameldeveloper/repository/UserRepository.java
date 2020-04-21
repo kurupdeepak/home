@@ -1,4 +1,7 @@
 package dkurup.cameldeveloper.repository;
 
-public class UserRepository {
+import dkurup.cameldeveloper.domain.User;
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepository extends CrudRepository<User,Integer> {
 }

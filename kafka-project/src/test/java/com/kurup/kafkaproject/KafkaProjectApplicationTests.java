@@ -1,4 +1,4 @@
-package com.kurup.kafkaproject.kafkaproject;
+package com.kurup.kafkaproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
