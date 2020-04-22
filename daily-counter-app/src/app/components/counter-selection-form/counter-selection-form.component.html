@@ -1,7 +1,0 @@
-<div class="form-group">
-  <label for="counters">Counters</label>
-  <select class="form-control" id="selectedCounter" [(ngModel)]="selectedCounter" required (change)="setCounter()">
-    <option value="-1">Select</option>
-    <option *ngFor="let counter of counters" [value]="counter.id">{{counter.name}}</option>
-  </select>
-</div>
